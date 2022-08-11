@@ -24,7 +24,7 @@ namespace Pruebas_Consola
                 nota = Convert.ToDecimal(Console.ReadLine());
                 if (nota > 5)
                 {
-                    Console.Write("¿Estamos calificando olimpicos? no debe ser superior a 5 :V\n");
+                    Console.Write("No debe ser superior a 5 :V\n");
                     nota = Convert.ToDecimal(Console.ReadLine());
                     contador++;
                 }
